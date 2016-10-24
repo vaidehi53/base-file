@@ -1,0 +1,82 @@
+/* CSS Document */
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+ 
+@font-face {
+  font-family: 'Verdana';
+  src: url('../fonts/Verdana.eot?#iefix') format('embedded-opentype'), 
+  url('../fonts/Verdana.woff') format('woff'), 
+  url('../fonts/Verdana.ttf') format('truetype'), 
+  url('../fonts/Verdana.svg#Verdana') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+
+   
+*{ margin:0; padding:0;}
+
+html,button{border:none;}
+
+img{vertical-align:middle; border:0px; height:auto; max-width:100%;}
+textarea{resize:vertical;}
+input[type="submit"], input[type="button"]{ border:none; cursor:pointer;}
+
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal; }
+
+ul{ padding:0; margin:0; list-style:none;}
+
+a{outline:none; text-decoration:none; } 
+a:hover, a:focus, button{ text-decoration:none; outline:none; border:none;}
+
+.spacer-10 { height:10px; float:left; width:100%; clear:both;}
+.spacer-20 { height:20px; float:left; width:100%; clear:both;}
+.spacer-30 { height:30px; float:left; width:100%; clear:both;}
+.spacer-50 { height:50px; float:left; width:100%; clear:both;}
+.spacer-70 { height:70px; float:left; width:100%; clear:both;}
+.spacer-100 { height:100px; float:left; width:100%; clear:both;}
+
+/* ===========================  Base styles: opinionated defaults  =========================== */
+
+/************************ Wordpress Typography Part Start ***************************/
+
+.inner-page-content{width:100%; float:left; padding:10px 12px; background:#fff; margin-bottom:20px; font-family: "Calibri";}
+
+.inner-page-content h1, .inner-page-content h2, .inner-page-content h3, .inner-page-content h4, .inner-page-content h5, .inner-page-content h6{ margin:10px 0px; clear:both;}
+.inner-page-content p{ font-size:14px; margin:10px 0; vertical-align: baseline;}
+
+.alignleft {display: inline-block; float: left; margin:0 20px 10px 0;}
+.alignright {display: inline-block; float: right; margin-left:0 0 10px 20px;}
+.aligncenter {clear: both; display: block !important;  margin-left: auto !important;  margin-right: auto !important; margin-bottom:10px; text-align: center;}
+
+.inner-page-content ul, .inner-page-content ol {margin: 10px 0 10px 30px; font-size:16px;}
+.inner-page-content ol {list-style:decimal;}
+.inner-page-content ul {list-style:disc ;}
+
+.inner-page-content h1{ font-size:34px; line-height:34px;}
+.inner-page-content h2{ font-size:30px; line-height:30px;}
+.inner-page-content h3{ font-size:26px; line-height:26px;}
+.inner-page-content h4{ font-size:22px; line-height:22px;}
+.inner-page-content h5{ font-size:18px; line-height:18px;}
+.inner-page-content h6{ font-size:16px; line-height:16px;}
+
+/************************ Wordpress Typography Part End ***************************/
+
+
+
+body{font-size:12px;}
+
+
+/* =========== Header Top Style  =========== */
+
+
+section{ width:100%; float:left;}
+header{ width:100%; float:left;}
+
+
+
+

@@ -1,0 +1,160 @@
+/* CSS Document */
+
+@-ms-viewport {width: device-width;}
+
+
+*:after, *:before, * { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box;}
+
+html { -ms-text-size-adjust: 100%;  -webkit-text-size-adjust: 100%;}
+
+
+.clearfix:before, .clearfix:after, .container:before, .container:after, .col-row:before, .col-row:after, .nav:before, .nav:after, .navbar:before, .navbar:after, .column:before, .column:after {display: table;  content: " ";}
+
+.clearfix:after, .container:after, .col-row:after, .nav:after, .navbar:after{clear: both;}
+
+
+.no-padding{ padding:0;}
+
+.col-row {margin-left: -10px; margin-right: -10px;}
+.col{ padding-left:10px; padding-right:10px; min-height: 1px;}
+
+.full{ width:100%; padding-left:10px; padding-right:10px; min-height: 1px;}
+
+.column{position:relative; float:left; width:100%;}
+
+.img-responsive{display:block; width:100%; max-width:100%;}
+img{ max-width:100%;}
+.center-block {display: block; margin-right: auto; margin-left: auto;}
+
+
+
+.spacer-10 { height:10px; float:left; width:100%; clear:both;}
+.spacer-20 { height:20px; float:left; width:100%; clear:both;}
+.spacer-30 { height:30px; float:left; width:100%; clear:both;}
+.spacer-50 { height:50px; float:left; width:100%; clear:both;}
+.spacer-70 { height:70px; float:left; width:100%; clear:both;}
+.spacer-100 { height:100px; float:left; width:100%; clear:both;}
+
+
+
+/************************************************ Basic Class Start ************************************************/
+
+
+/* ********************************************* Start Common Css ******************************************************* */ 
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	/*font: inherit;*/
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Alignment */
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 16px !important;
+}
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 16px !important;
+}
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignleft, img.alignright, img.aligncenter {margin-bottom: 26px;}
+
+/* =Global
+----------------------------------------------- */
+
+img{vertical-align:middle; border:0px; height:auto; max-width:100%;}
+textarea{resize:vertical;}
+input[type="submit"], input[type="button"]{ border:none; cursor:pointer;}
+
+h1, h2, h3, h4, h5, h6 { padding:0; margin:0; font-weight:normal; }
+
+a{outline:none; text-decoration:none; transition: all 0.2s ease 0s; -webkit-transition: all 0.2s ease 0s; -moz-transition: all 0.2s ease 0s;} 
+a:hover, a:focus, button{ text-decoration:none; outline:none; border:none;}
+
+
+h1{ font-size:30px;}
+h2{ font-size:33px; line-height:36px; }
+h3{ font-size:30px; line-height:34px;}
+h4{ font-size:20px;}
+h5{ font-size:16px;}
+h6{ font-size:14px;}
+
+hr { background-color: #ccc; border: 0; height: 1px; margin-bottom: 26px;}
+
+/* Text elements */
+
+p {margin-bottom: 0;}
+
+
+ul, ol {margin:0; list-style: none;}
+
+
+ol {list-style-type: decimal;}
+ol ol {list-style: upper-alpha;}
+ol ol ol {list-style: lower-roman;}
+ol ol ol ol {list-style: lower-alpha;}
+ul ul, ol ol, ul ol, ol ul { margin-bottom: 0;}
+
+strong { font-weight: bold;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a img { border: 0;}
+
+
+sup {bottom: 1ex;}
+sub {top: .5ex;}
+
+/* Links */
+
+
+a:focus, a:active, a:hover {text-decoration: none;}
+
+:focus {outline: 0;}
+
+caption, th, td { font-weight: normal; text-align: left;}
+
+table {border-collapse: collapse; border-spacing: 0;}
+td, th {padding: 0;}
+
+
+/* ********************************************* End Common Css ******************************************************* */ 
+
+/* ******************************************* Start Template Css **************************************************** */ 
+
+
+
+
+
+
+
